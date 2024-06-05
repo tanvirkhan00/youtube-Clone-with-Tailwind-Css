@@ -5,15 +5,27 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="./output.css" rel="stylesheet">
   <title>Youtube Clone</title>
+
+  <style>
+
+    /* Youtube Content Css */
+    
+     .youtube-content .singleBox {
+        width: 320px;
+        margin: 0 auto;
+        border-radius: 10px;
+    }
+  </style>
 </head>
 <body>
 
     <!-- Start Header Section -->
-    <section class="header w-[1300px] mx-auto">
-        <div class="top-header flex justify-between items-center p-3">
+    
+    <section class="header w-[1300px] mx-auto mt-[50px]">
+        <div class="top-header flex justify-between items-center gap-[20px]">
             <div class="singleBox flex items-center gap-5 ">
                 <div class="bar-icon">
-                    <a href="#"><i class="fa-solid fa-bars text-xl"></i></a>
+                    <a href="#"><i class="fa-solid fa-bars text-xl hover:text-red-400"></i></a>
                 </div>
                 <div class="img-box">
                     <img class="w-[130px]" src="/image/youtube-logo-png-transparent-background-download-3.png" alt="">
@@ -22,25 +34,26 @@
             <div class="single-box flex items-center gap-5">
                 <form class="w-[570px] border-slate-400 border-2 rounded-2xl" action="">
                     <input class="p-2 w-[500px] border-r-2 border-slate-400" type="text" placeholder="Search....">
-                    <button type="submit"><i class="fa fa-search px-4 text-xl"></i></button>
+                    <button type="submit"><i class="fa fa-search px-4 text-xl hover:text-red-400"></i></button>
                 </form>
                 <div class="icon-box">
-                    <a href="#"><i class="fa-solid fa-microphone text-xl bg-slate-200 p-3 rounded-full"></i></a>
+                    <a href="#"><i class="fa-solid fa-microphone text-xl bg-slate-200 p-3 rounded-full hover:text-red-400"></i></a>
                 </div>
             </div>
             <div class="single-box flex items-center gap-8 text-xl">
                 <div class="video-icon">
-                    <a href="#"><i class="fa-solid fa-video"></i></a>
+                    <a href="#"><i class="fa-solid fa-video hover:text-red-400"></i></a>
                 </div>
                 <div class="notification-icon">
-                    <a href="#"><i class="fa-regular fa-bell"></i></a>
+                    <a href="#"><i class="fa-regular fa-bell hover:text-red-400"></i></a>
                 </div>
                 <div class="user-icon">
-                    <a href="#"><i class="fa-regular fa-circle-user"></i></a>
+                    <a href="#"><i class="fa-regular fa-circle-user hover:text-red-400"></i></a>
                 </div>
             </div>
         </div>
     </section>
+
     <!-- End Header Section -->
 
 
@@ -238,7 +251,7 @@
                 </div>
                 <div class="setting mt-5 border-b-2 border-slate-200 pb-3">
                     <div class="single-box p-3 rounded-md hover:bg-slate-300">
-                        <a class="flex items-center text-xl gap-8" href="#">
+                        <a class="flex items-center text-xl gap-8 " href="#">
                             <i class="fa-solid fa-gear"></i>
                             <p>Settings</p>
                         </a>
@@ -275,7 +288,7 @@
                 </div>
             </div>
             <div class="content basis-[80%]">
-                <div class="content-list flex items-center gap-3">
+                <div class="content-list flex items-center gap-3 justify-between">
                     <a class="bg-black text-white px-2 py-1 rounded-md font-semibold" href="#">All</a>
                     <a class="bg-slate-200 px-2 py-1 rounded-md font-semibold hover:bg-slate-300" href="#">Music</a>
                     <a class="bg-slate-200 px-2 py-1 rounded-md font-semibold hover:bg-slate-300" href="#">Music</a>
@@ -290,375 +303,54 @@
                     <a class="bg-slate-200 px-2 py-1 rounded-md font-semibold hover:bg-slate-300" href="#">Moushumi</a>
                     <a class="bg-slate-200 px-2 py-1 rounded-md font-semibold hover:bg-slate-300" href="#">Baul</a>
                 </div>
-                <div class="content-box mt-5 flex flex-wrap gap-3">
-                    <div class="single-box basis-[32%]">
-                        <div class="img-box">
-                            <img class="rounded-lg" src="/image/content 1.png" alt="">
-                        </div>
-                        <div class="content mt-3">
-                            <div class="heading flex items-center gap-4">
-                                <img class="w-[30px] rounded-full" src="/image/rtv.png" alt="">
-                                <h1 class="font-semibold text-lg">Tumi Amar Moner Manus|তুমি আমার মনের মানুষ|Salman Shah|Shabnur|Sabina Yasmin</h1>
-                            </div>
-                            <div class="details ml-10">
-                                <a href="#">RTv Music</a>
-                                <a href="#">2M views . 5 Years Ago</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="single-box basis-[32%]">
-                        <div class="img-box">
-                            <img class="rounded-lg" src="/image/content 1.png" alt="">
-                        </div>
-                        <div class="content mt-3">
-                            <div class="heading flex items-center gap-4">
-                                <img class="w-[30px] rounded-full" src="/image/rtv.png" alt="">
-                                <h1 class="font-semibold text-lg">Tumi Amar Moner Manus|তুমি আমার মনের মানুষ|Salman Shah|Shabnur|Sabina Yasmin</h1>
-                            </div>
-                            <div class="details ml-10">
-                                <a href="#">RTv Music</a>
-                                <a href="#">2M views . 5 Years Ago</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="single-box basis-[32%]">
-                        <div class="img-box">
-                            <img class="rounded-lg" src="/image/content 1.png" alt="">
-                        </div>
-                        <div class="content mt-3">
-                            <div class="heading flex items-center gap-4">
-                                <img class="w-[30px] rounded-full" src="/image/rtv.png" alt="">
-                                <h1 class="font-semibold text-lg">Tumi Amar Moner Manus|তুমি আমার মনের মানুষ|Salman Shah|Shabnur|Sabina Yasmin</h1>
-                            </div>
-                            <div class="details ml-10">
-                                <a href="#">RTv Music</a>
-                                <a href="#">2M views . 5 Years Ago</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="single-box basis-[32%]">
-                        <div class="img-box">
-                            <img class="rounded-lg" src="/image/content 1.png" alt="">
-                        </div>
-                        <div class="content mt-3">
-                            <div class="heading flex items-center gap-4">
-                                <img class="w-[30px] rounded-full" src="/image/rtv.png" alt="">
-                                <h1 class="font-semibold text-lg">Tumi Amar Moner Manus|তুমি আমার মনের মানুষ|Salman Shah|Shabnur|Sabina Yasmin</h1>
-                            </div>
-                            <div class="details ml-10">
-                                <a href="#">RTv Music</a>
-                                <a href="#">2M views . 5 Years Ago</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="single-box basis-[32%]">
-                        <div class="img-box">
-                            <img class="rounded-lg" src="/image/content 1.png" alt="">
-                        </div>
-                        <div class="content mt-3">
-                            <div class="heading flex items-center gap-4">
-                                <img class="w-[30px] rounded-full" src="/image/rtv.png" alt="">
-                                <h1 class="font-semibold text-lg">Tumi Amar Moner Manus|তুমি আমার মনের মানুষ|Salman Shah|Shabnur|Sabina Yasmin</h1>
-                            </div>
-                            <div class="details ml-10">
-                                <a href="#">RTv Music</a>
-                                <a href="#">2M views . 5 Years Ago</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="single-box basis-[32%]">
-                        <div class="img-box">
-                            <img class="rounded-lg" src="/image/content 1.png" alt="">
-                        </div>
-                        <div class="content mt-3">
-                            <div class="heading flex items-center gap-4">
-                                <img class="w-[30px] rounded-full" src="/image/rtv.png" alt="">
-                                <h1 class="font-semibold text-lg">Tumi Amar Moner Manus|তুমি আমার মনের মানুষ|Salman Shah|Shabnur|Sabina Yasmin</h1>
-                            </div>
-                            <div class="details ml-10">
-                                <a href="#">RTv Music</a>
-                                <a href="#">2M views . 5 Years Ago</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="single-box basis-[32%]">
-                        <div class="img-box">
-                            <img class="rounded-lg" src="/image/content 1.png" alt="">
-                        </div>
-                        <div class="content mt-3">
-                            <div class="heading flex items-center gap-4">
-                                <img class="w-[30px] rounded-full" src="/image/rtv.png" alt="">
-                                <h1 class="font-semibold text-lg">Tumi Amar Moner Manus|তুমি আমার মনের মানুষ|Salman Shah|Shabnur|Sabina Yasmin</h1>
-                            </div>
-                            <div class="details ml-10">
-                                <a href="#">RTv Music</a>
-                                <a href="#">2M views . 5 Years Ago</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="single-box basis-[32%]">
-                        <div class="img-box">
-                            <img class="rounded-lg" src="/image/content 1.png" alt="">
-                        </div>
-                        <div class="content mt-3">
-                            <div class="heading flex items-center gap-4">
-                                <img class="w-[30px] rounded-full" src="/image/rtv.png" alt="">
-                                <h1 class="font-semibold text-lg">Tumi Amar Moner Manus|তুমি আমার মনের মানুষ|Salman Shah|Shabnur|Sabina Yasmin</h1>
-                            </div>
-                            <div class="details ml-10">
-                                <a href="#">RTv Music</a>
-                                <a href="#">2M views . 5 Years Ago</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="single-box basis-[32%]">
-                        <div class="img-box">
-                            <img class="rounded-lg" src="/image/content 1.png" alt="">
-                        </div>
-                        <div class="content mt-3">
-                            <div class="heading flex items-center gap-4">
-                                <img class="w-[30px] rounded-full" src="/image/rtv.png" alt="">
-                                <h1 class="font-semibold text-lg">Tumi Amar Moner Manus|তুমি আমার মনের মানুষ|Salman Shah|Shabnur|Sabina Yasmin</h1>
-                            </div>
-                            <div class="details ml-10">
-                                <a href="#">RTv Music</a>
-                                <a href="#">2M views . 5 Years Ago</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="single-box basis-[32%]">
-                        <div class="img-box">
-                            <img class="rounded-lg" src="/image/content 1.png" alt="">
-                        </div>
-                        <div class="content mt-3">
-                            <div class="heading flex items-center gap-4">
-                                <img class="w-[30px] rounded-full" src="/image/rtv.png" alt="">
-                                <h1 class="font-semibold text-lg">Tumi Amar Moner Manus|তুমি আমার মনের মানুষ|Salman Shah|Shabnur|Sabina Yasmin</h1>
-                            </div>
-                            <div class="details ml-10">
-                                <a href="#">RTv Music</a>
-                                <a href="#">2M views . 5 Years Ago</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="single-box basis-[32%]">
-                        <div class="img-box">
-                            <img class="rounded-lg" src="/image/content 1.png" alt="">
-                        </div>
-                        <div class="content mt-3">
-                            <div class="heading flex items-center gap-4">
-                                <img class="w-[30px] rounded-full" src="/image/rtv.png" alt="">
-                                <h1 class="font-semibold text-lg">Tumi Amar Moner Manus|তুমি আমার মনের মানুষ|Salman Shah|Shabnur|Sabina Yasmin</h1>
-                            </div>
-                            <div class="details ml-10">
-                                <a href="#">RTv Music</a>
-                                <a href="#">2M views . 5 Years Ago</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="single-box basis-[32%]">
-                        <div class="img-box">
-                            <img class="rounded-lg" src="/image/content 1.png" alt="">
-                        </div>
-                        <div class="content mt-3">
-                            <div class="heading flex items-center gap-4">
-                                <img class="w-[30px] rounded-full" src="/image/rtv.png" alt="">
-                                <h1 class="font-semibold text-lg">Tumi Amar Moner Manus|তুমি আমার মনের মানুষ|Salman Shah|Shabnur|Sabina Yasmin</h1>
-                            </div>
-                            <div class="details ml-10">
-                                <a href="#">RTv Music</a>
-                                <a href="#">2M views . 5 Years Ago</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="single-box basis-[32%]">
-                        <div class="img-box">
-                            <img class="rounded-lg" src="/image/content 1.png" alt="">
-                        </div>
-                        <div class="content mt-3">
-                            <div class="heading flex items-center gap-4">
-                                <img class="w-[30px] rounded-full" src="/image/rtv.png" alt="">
-                                <h1 class="font-semibold text-lg">Tumi Amar Moner Manus|তুমি আমার মনের মানুষ|Salman Shah|Shabnur|Sabina Yasmin</h1>
-                            </div>
-                            <div class="details ml-10">
-                                <a href="#">RTv Music</a>
-                                <a href="#">2M views . 5 Years Ago</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="single-box basis-[32%]">
-                        <div class="img-box">
-                            <img class="rounded-lg" src="/image/content 1.png" alt="">
-                        </div>
-                        <div class="content mt-3">
-                            <div class="heading flex items-center gap-4">
-                                <img class="w-[30px] rounded-full" src="/image/rtv.png" alt="">
-                                <h1 class="font-semibold text-lg">Tumi Amar Moner Manus|তুমি আমার মনের মানুষ|Salman Shah|Shabnur|Sabina Yasmin</h1>
-                            </div>
-                            <div class="details ml-10">
-                                <a href="#">RTv Music</a>
-                                <a href="#">2M views . 5 Years Ago</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="single-box basis-[32%]">
-                        <div class="img-box">
-                            <img class="rounded-lg" src="/image/content 1.png" alt="">
-                        </div>
-                        <div class="content mt-3">
-                            <div class="heading flex items-center gap-4">
-                                <img class="w-[30px] rounded-full" src="/image/rtv.png" alt="">
-                                <h1 class="font-semibold text-lg">Tumi Amar Moner Manus|তুমি আমার মনের মানুষ|Salman Shah|Shabnur|Sabina Yasmin</h1>
-                            </div>
-                            <div class="details ml-10">
-                                <a href="#">RTv Music</a>
-                                <a href="#">2M views . 5 Years Ago</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="single-box basis-[32%]">
-                        <div class="img-box">
-                            <img class="rounded-lg" src="/image/content 1.png" alt="">
-                        </div>
-                        <div class="content mt-3">
-                            <div class="heading flex items-center gap-4">
-                                <img class="w-[30px] rounded-full" src="/image/rtv.png" alt="">
-                                <h1 class="font-semibold text-lg">Tumi Amar Moner Manus|তুমি আমার মনের মানুষ|Salman Shah|Shabnur|Sabina Yasmin</h1>
-                            </div>
-                            <div class="details ml-10">
-                                <a href="#">RTv Music</a>
-                                <a href="#">2M views . 5 Years Ago</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="single-box basis-[32%]">
-                        <div class="img-box">
-                            <img class="rounded-lg" src="/image/content 1.png" alt="">
-                        </div>
-                        <div class="content mt-3">
-                            <div class="heading flex items-center gap-4">
-                                <img class="w-[30px] rounded-full" src="/image/rtv.png" alt="">
-                                <h1 class="font-semibold text-lg">Tumi Amar Moner Manus|তুমি আমার মনের মানুষ|Salman Shah|Shabnur|Sabina Yasmin</h1>
-                            </div>
-                            <div class="details ml-10">
-                                <a href="#">RTv Music</a>
-                                <a href="#">2M views . 5 Years Ago</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="single-box basis-[32%]">
-                        <div class="img-box">
-                            <img class="rounded-lg" src="/image/content 1.png" alt="">
-                        </div>
-                        <div class="content mt-3">
-                            <div class="heading flex items-center gap-4">
-                                <img class="w-[30px] rounded-full" src="/image/rtv.png" alt="">
-                                <h1 class="font-semibold text-lg">Tumi Amar Moner Manus|তুমি আমার মনের মানুষ|Salman Shah|Shabnur|Sabina Yasmin</h1>
-                            </div>
-                            <div class="details ml-10">
-                                <a href="#">RTv Music</a>
-                                <a href="#">2M views . 5 Years Ago</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="single-box basis-[32%]">
-                        <div class="img-box">
-                            <img class="rounded-lg" src="/image/content 1.png" alt="">
-                        </div>
-                        <div class="content mt-3">
-                            <div class="heading flex items-center gap-4">
-                                <img class="w-[30px] rounded-full" src="/image/rtv.png" alt="">
-                                <h1 class="font-semibold text-lg">Tumi Amar Moner Manus|তুমি আমার মনের মানুষ|Salman Shah|Shabnur|Sabina Yasmin</h1>
-                            </div>
-                            <div class="details ml-10">
-                                <a href="#">RTv Music</a>
-                                <a href="#">2M views . 5 Years Ago</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="single-box basis-[32%]">
-                        <div class="img-box">
-                            <img class="rounded-lg" src="/image/content 1.png" alt="">
-                        </div>
-                        <div class="content mt-3">
-                            <div class="heading flex items-center gap-4">
-                                <img class="w-[30px] rounded-full" src="/image/rtv.png" alt="">
-                                <h1 class="font-semibold text-lg">Tumi Amar Moner Manus|তুমি আমার মনের মানুষ|Salman Shah|Shabnur|Sabina Yasmin</h1>
-                            </div>
-                            <div class="details ml-10">
-                                <a href="#">RTv Music</a>
-                                <a href="#">2M views . 5 Years Ago</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="single-box basis-[32%]">
-                        <div class="img-box">
-                            <img class="rounded-lg" src="/image/content 1.png" alt="">
-                        </div>
-                        <div class="content mt-3">
-                            <div class="heading flex items-center gap-4">
-                                <img class="w-[30px] rounded-full" src="/image/rtv.png" alt="">
-                                <h1 class="font-semibold text-lg">Tumi Amar Moner Manus|তুমি আমার মনের মানুষ|Salman Shah|Shabnur|Sabina Yasmin</h1>
-                            </div>
-                            <div class="details ml-10">
-                                <a href="#">RTv Music</a>
-                                <a href="#">2M views . 5 Years Ago</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="single-box basis-[32%]">
-                        <div class="img-box">
-                            <img class="rounded-lg" src="/image/content 1.png" alt="">
-                        </div>
-                        <div class="content mt-3">
-                            <div class="heading flex items-center gap-4">
-                                <img class="w-[30px] rounded-full" src="/image/rtv.png" alt="">
-                                <h1 class="font-semibold text-lg">Tumi Amar Moner Manus|তুমি আমার মনের মানুষ|Salman Shah|Shabnur|Sabina Yasmin</h1>
-                            </div>
-                            <div class="details ml-10">
-                                <a href="#">RTv Music</a>
-                                <a href="#">2M views . 5 Years Ago</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="single-box basis-[32%]">
-                        <div class="img-box">
-                            <img class="rounded-lg" src="/image/content 1.png" alt="">
-                        </div>
-                        <div class="content mt-3">
-                            <div class="heading flex items-center gap-4">
-                                <img class="w-[30px] rounded-full" src="/image/rtv.png" alt="">
-                                <h1 class="font-semibold text-lg">Tumi Amar Moner Manus|তুমি আমার মনের মানুষ|Salman Shah|Shabnur|Sabina Yasmin</h1>
-                            </div>
-                            <div class="details ml-10">
-                                <a href="#">RTv Music</a>
-                                <a href="#">2M views . 5 Years Ago</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="single-box basis-[32%]">
-                        <div class="img-box">
-                            <img class="rounded-lg" src="/image/content 1.png" alt="">
-                        </div>
-                        <div class="content mt-3">
-                            <div class="heading flex items-center gap-4">
-                                <img class="w-[30px] rounded-full" src="/image/rtv.png" alt="">
-                                <h1 class="font-semibold text-lg">Tumi Amar Moner Manus|তুমি আমার মনের মানুষ|Salman Shah|Shabnur|Sabina Yasmin</h1>
-                            </div>
-                            <div class="details ml-10">
-                                <a href="#">RTv Music</a>
-                                <a href="#">2M views . 5 Years Ago</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                <div class="youtube-content flex flex-wrap gap-[20px] mt-[30px]" id="youTubeContent"></div>
             </div>
         </div>
     </section>
 
+    <!-- End Content Section -->
 
 
     <!-- Font Awsome Kit -->
     <script src="https://kit.fontawesome.com/862c32b35b.js" crossorigin="anonymous"></script>
+
 </body>
 </html>
+
+
+
+
+
+
+<script>
+
+    function loadYoutubeContent() {
+        fetch('/src/content.json')
+        .then(res =>res.json())
+        .then(data=> displayYoutubeContent(data))
+    }
+
+    function displayYoutubeContent (youtubeContents) {
+        const youtubeContainer =document.getElementById('youTubeContent') ;
+
+
+        for (const singleContent of youtubeContents) {
+            const div =document.createElement('div');
+            div.classList.add ('singleBox')
+            div.innerHTML = `
+                <img class="rounded-[10px]" src =${singleContent.img} >
+                <div class="flex gap-[20px] mt-[10px]"> 
+                    <img class="rounded-full w-[50px] h-[50px]" src =${singleContent.image} >
+                    <div>
+                        <h1 class="text-lg"> ${singleContent.title} </h1>
+                        <p class="text-xl"> ${singleContent.channel} </p>
+                        <p class="text-xl"> ${singleContent.views} </p>
+                    </div>
+                </div>
+            `
+            youtubeContainer.appendChild(div) ;
+        }
+    }
+    loadYoutubeContent()
+
+</script>
